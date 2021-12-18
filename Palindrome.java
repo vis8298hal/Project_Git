@@ -14,8 +14,8 @@ class PalindromeList{
 	}
 	public void checkPalindrome(){
 		if(this.num>=10){
-			if(num==rev){
-				System.out.println(this.num+" is Palindrome ");
+			if(num==this.rev){
+				System.out.println(this.num+" is Palindrome of "+this.rev);
 			}
 		}
 	}
